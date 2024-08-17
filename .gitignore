@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# MacOS files
+.DS_Store
+
+# Ignore .gitignore itself
+!.gitignore

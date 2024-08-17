@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "username": "john_smith",
+      "password": "johnPass123",
+      "email": "john.smith@example.com",
+      "mobile": "1234567890",
+      "firstname": "John",
+      "lastname": "Smith",
+      "avatarUrl": "http://example.com/avatar1.jpg"
+    },
+    {
+      "username": "jane_doe",
+      "password": "janePass123",
+      "email": "jane.doe@example.com",
+      "mobile": "2345678901",
+      "firstname": "Jane",
+      "lastname": "Doe",
+      "avatarUrl": "http://example.com/avatar2.jpg"
+    },
+    {
+      "username": "michael_lee",
+      "password": "michaelPass123",
+      "email": "michael.lee@example.com",
+      "mobile": "3456789012",
+      "firstname": "Michael",
+      "lastname": "Lee",
+      "avatarUrl": "http://example.com/avatar3.jpg"
+    },
+
+    {
+      "username": "sarah_kim",
+      "password": "sarahPass123",
+      "email": "sarah.kim@example.com",
+      "mobile": "4567890123",
+      "firstname": "Sarah",
+      "lastname": "Kim",
+      "avatarUrl": "http://example.com/avatar4.jpg"
+    },
+    {
+      "username": "david_jones",
+      "password": "davidPass123",
+      "email": "david.jones@example.com",
+      "mobile": "5678901234",
+      "firstname": "David",
+      "lastname": "Jones",
+      "avatarUrl": "http://example.com/avatar5.jpg"
+    }
+  ]
+}

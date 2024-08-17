@@ -1,0 +1,98 @@
+{
+    "data" : [
+        {
+          "questionText": "Which country won the FIFA World Cup in 2018?",
+          "options": [
+            { "optionText": "Brazil", "isCorrect": false },
+            { "optionText": "France", "isCorrect": true },
+            { "optionText": "Germany", "isCorrect": false },
+            { "optionText": "Argentina", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which player holds the record for the most home runs in a single MLB season?",
+          "options": [
+            { "optionText": "Barry Bonds", "isCorrect": true },
+            { "optionText": "Babe Ruth", "isCorrect": false },
+            { "optionText": "Hank Aaron", "isCorrect": false },
+            { "optionText": "Mark McGwire", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which country has won the most Olympic gold medals in swimming?",
+          "options": [
+            { "optionText": "Australia", "isCorrect": false },
+            { "optionText": "China", "isCorrect": false },
+            { "optionText": "United States", "isCorrect": true },
+            { "optionText": "Russia", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "In which year did Roger Federer win his first Wimbledon title?",
+          "options": [
+            { "optionText": "2001", "isCorrect": false },
+            { "optionText": "2003", "isCorrect": true },
+            { "optionText": "2005", "isCorrect": false },
+            { "optionText": "2007", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which team won the NBA championship in 2020?",
+          "options": [
+            { "optionText": "Los Angeles Lakers", "isCorrect": true },
+            { "optionText": "Miami Heat", "isCorrect": false },
+            { "optionText": "Golden State Warriors", "isCorrect": false },
+            { "optionText": "Toronto Raptors", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Who holds the record for the fastest serve in tennis?",
+          "options": [
+            { "optionText": "Roger Federer", "isCorrect": false },
+            { "optionText": "Andy Roddick", "isCorrect": false },
+            { "optionText": "John Isner", "isCorrect": false },
+            { "optionText": "Sam Groth", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which country has won the most Rugby World Cup titles?",
+          "options": [
+            { "optionText": "South Africa", "isCorrect": true },
+            { "optionText": "New Zealand", "isCorrect": true },
+            { "optionText": "Australia", "isCorrect": false },
+            { "optionText": "England", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Who won the Formula 1 World Championship in 2021?",
+          "options": [
+            { "optionText": "Lewis Hamilton", "isCorrect": false },
+            { "optionText": "Max Verstappen", "isCorrect": true },
+            { "optionText": "Sebastian Vettel", "isCorrect": false },
+            { "optionText": "Charles Leclerc", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which soccer player has won the most Ballon d'Or awards?",
+          "options": [
+            { "optionText": "Cristiano Ronaldo", "isCorrect": false },
+            { "optionText": "Lionel Messi", "isCorrect": true },
+            { "optionText": "Zinedine Zidane", "isCorrect": false },
+            { "optionText": "Johan Cruyff", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which cricketer holds the record for the most runs in Test cricket?",
+          "options": [
+            { "optionText": "Sachin Tendulkar", "isCorrect": true },
+            { "optionText": "Ricky Ponting", "isCorrect": false },
+            { "optionText": "Brian Lara", "isCorrect": false },
+            { "optionText": "Jacques Kallis", "isCorrect": false }
+
+          ]
+        }
+    ]
+       
+      
+      
+}
