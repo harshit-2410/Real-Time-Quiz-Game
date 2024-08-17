@@ -161,7 +161,7 @@ The game relies heavily on Socket.IO for real-time communication between the ser
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/real-time-quiz-game.git
+   git clone https://github.com/Junkie24/Real-Time-Quiz-Game
    cd real-time-quiz-game
    ```
 
