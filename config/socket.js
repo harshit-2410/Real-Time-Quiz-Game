@@ -42,6 +42,9 @@ const initSocketServer = async (server) => {
           if (!game) {
             emitData("Game not found", Socket_Events.Question_Send, [socketIdMap.get(socket.userId.toString())]);
           }
+          if (game.completed) {
+            emitData("Game ended", Socket_Events.Question_Send, [socketIdMap.get(socket.userId.toString())]);
+          }
           const question = game.questions[questionIndex];
           if (!question) {
             emitData("Question not found", Socket_Events.Question_Send, [socketIdMap.get(socket.userId.toString())]);
@@ -65,6 +68,10 @@ const initSocketServer = async (server) => {
 
           if (!game) {
             emitData("Game not found", Socket_Events.Answer_Submit, [socket.userId.toString()]);
+          }
+
+          if (game.completed) {
+            emitData("Game already ended.", Socket_Events.Answer_Submit, [socket.userId.toString()]);
           }
 
           const question = game.questions[questionIndex];
