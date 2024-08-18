@@ -29,6 +29,10 @@ exports.startGame = async (req, res) => {
 
     await User.updateMany({ _id: { $in: [player1Id, player2._id] } }, { $set: { inGame: true } });
 
+    const updatedResult = await User.find(
+        { _id: { $in: [player1Id, player2._id] } }
+      ).select({username : 1})
+  
     const game = await Game.create({
       player1: player1Id,
       player2: player2._id,
@@ -36,7 +40,7 @@ exports.startGame = async (req, res) => {
     });
 
     // Notify both players about the game initiation via Socket.IO
-    emitData({ gameId: game._id }, Socket_Events.Game_Initalize, [socketIdMap.get(player1Id.toString()),socketIdMap.get(player2._id.toString())]);
+    emitData({ gameId: game._id , player1 : updatedResult[0].username , player2 : updatedResult[1].username}, Socket_Events.Game_Initalize, [socketIdMap.get(player1Id.toString()),socketIdMap.get(player2._id.toString())]);
 
     res.status(ApiResponseCodes.CREATED).json({ message: "Game creation successful", gameId: game._id });
   } catch (error) {

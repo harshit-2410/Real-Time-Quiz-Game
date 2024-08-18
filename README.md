@@ -75,7 +75,9 @@ The game relies heavily on Socket.IO for real-time communication between the ser
 - **Data Sent**:
   ```json
   {
-    "gameId": "123456"
+    "gameId": "123456",
+    "player1" : "player1username",
+    "player2" : "player2username"
   }
   ```
 
